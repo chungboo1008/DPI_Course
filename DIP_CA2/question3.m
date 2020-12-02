@@ -104,5 +104,3 @@ subplot(2, 2, 3); imshow(mat2gray(specturm_GHPF));
 title('(c) spectrum after GHPF','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
 subplot(2, 2, 4); imshow(image_GHPF);
 title('(d) image after GHPF with sigma 10','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
-
-

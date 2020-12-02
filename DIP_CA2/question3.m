@@ -59,7 +59,7 @@ title('(b) spectrum','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
 subplot(2, 2, 3); imshow(mat2gray(specturm_GLPF));
 title('(c) spectrum after GLPF','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
 subplot(2, 2, 4); imshow(image_GLPF);
-title('(d) image after GLPF with sigma 10','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
+title('(d) image after GLPF with sigma 30','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
 
 % --gaussian highpass filter  with sigma 10-- %
 sigma = 10;
@@ -103,4 +103,4 @@ title('(b) spectrum','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
 subplot(2, 2, 3); imshow(mat2gray(specturm_GHPF));
 title('(c) spectrum after GHPF','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
 subplot(2, 2, 4); imshow(image_GHPF);
-title('(d) image after GHPF with sigma 10','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
+title('(d) image after GHPF with sigma 30','fontname','雅痞-繁', 'Color', 'k', 'FontSize', 14);
